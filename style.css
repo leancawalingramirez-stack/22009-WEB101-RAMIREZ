@@ -1,0 +1,106 @@
+/* Basic Reset and Font */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container and Card Styling */
+.profile-container {
+    width: 100%;
+    max-width: 1500px;
+    padding: 20px;
+}
+
+.profile-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px 20px;
+    text-align: center;
+}
+
+/* Image Styling */
+.profile-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+    border: 4px solid #007bff; /* Optional border color */
+    margin-bottom: 15px;
+}
+
+/* Text Styling */
+.profile-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.profile-title {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Info Section Styling */
+.profile-info {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.profile-info p {
+    margin: 8px 0;
+    font-size: 0.95em;
+    color: #555;
+}
+
+.profile-info strong {
+    font-weight: 600;
+    color: #333;
+    /* Sets the strong tags to a fixed width for alignment */
+    display: inline-block; 
+    width: 100px; 
+}
+
+/* Buttons Styling */
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    flex-grow: 1;
+    transition: background-color 0.3s;
+}
+
+.message-btn {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: 1px solid #007bff;
+}
+
+.portfolio-btn {
+    background-color: transparent; /* Transparent/white background */
+    color: #007bff; /* Blue text */
+    border: 1px solid #007bff;
+}
+
+.message-btn:hover {
+    background-color: #0056b3;
+}
+
+.portfolio-btn:hover {
+    background-color: #e9ecef;
+}
